@@ -1,10 +1,9 @@
-import Link from 'next/link';
-import Image from 'next/image';
-
-import MainHeaderBackground from './main-header-background';
-import logoImg from '@/assets/logo.png';
-import classes from './main-header.module.css';
-import NavLink from './nav-link';
+import Link from "next/link"
+import Image from "next/image"
+import MainHeaderBackground from "./main-header-background"
+import logoImg from "@/assets/logo.png"
+import classes from "./main-header.module.css"
+import NavLink from "./nav-link"
 
 export default function MainHeader() {
   return (
@@ -28,5 +27,5 @@ export default function MainHeader() {
         </nav>
       </header>
     </>
-  );
+  )
 }
